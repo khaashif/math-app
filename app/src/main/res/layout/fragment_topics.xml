@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/testWhite"
+    android:orientation="vertical"
+    android:tag="layout/fragment_topics_0">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <GridLayout
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:columnCount="1"
+            android:padding="10dp"
+            android:rowCount="20">
+
+            <LinearLayout
+                android:id="@+id/classic"
+                android:layout_width="0dp"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_topics"
+                android:elevation="3dp"
+                android:foreground="@drawable/ripple_keyboard"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="0dp"
+                android:shadowRadius="0">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <ImageView
+                    android:id="@+id/classicImage"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical|center_horizontal|center|end"
+                    android:layout_weight="0.8" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="Classic"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/circleprogress" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/arithmetic"
+                android:layout_width="0dp"
+                android:layout_row="1"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_topics"
+                android:elevation="3dp"
+                android:foreground="@drawable/ripple_keyboard"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="0dp"
+                android:shadowRadius="0">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical|center_horizontal|center|end"
+                    android:layout_weight="0.8" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="Arithmetic"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/circleprogress" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/prealgebra"
+                android:layout_width="0dp"
+                android:layout_row="2"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_topics"
+                android:elevation="3dp"
+                android:foreground="@drawable/ripple_keyboard"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="0dp"
+                android:shadowRadius="0">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical|center_horizontal|center|end"
+                    android:layout_weight="0.8" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="Pre-Algebra"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/circleprogress" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/algebra1"
+                android:layout_width="0dp"
+                android:layout_row="3"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_topics"
+                android:elevation="3dp"
+                android:foreground="@drawable/ripple_keyboard"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="0dp"
+                android:shadowRadius="0">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical|center_horizontal|center|end"
+                    android:layout_weight="0.8" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="Algebra I"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/circleprogress" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/geometry"
+                android:layout_width="0dp"
+                android:layout_row="4"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_topics"
+                android:elevation="3dp"
+                android:foreground="@drawable/ripple_keyboard"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="0dp"
+                android:shadowRadius="0">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical|center_horizontal|center|end"
+                    android:layout_weight="0.8" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="Geometry"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/circleprogress" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/algebra2"
+                android:layout_width="0dp"
+                android:layout_row="5"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_topics"
+                android:elevation="3dp"
+                android:foreground="@drawable/ripple_keyboard"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="0dp"
+                android:shadowRadius="0">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical|center_horizontal|center|end"
+                    android:layout_weight="0.8" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="Algebra II"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/circleprogress" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/trig"
+                android:layout_width="0dp"
+                android:layout_row="6"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_topics"
+                android:elevation="3dp"
+                android:foreground="@drawable/ripple_keyboard"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="0dp"
+                android:shadowRadius="0">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical|center_horizontal|center|end"
+                    android:layout_weight="0.8" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="Trigonometry"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/circleprogress" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/precalc"
+                android:layout_width="0dp"
+                android:layout_row="7"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_topics"
+                android:elevation="3dp"
+                android:foreground="@drawable/ripple_keyboard"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="0dp"
+                android:shadowRadius="0">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical|center_horizontal|center|end"
+                    android:layout_weight="0.8" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="PreCalculus"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/circleprogress" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/statsandprob"
+                android:layout_width="0dp"
+                android:layout_row="8"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_topics"
+                android:elevation="3dp"
+                android:foreground="@drawable/ripple_keyboard"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="0dp"
+                android:shadowRadius="0">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical|center_horizontal|center|end"
+                    android:layout_weight="0.8" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="@string/statistics_probability"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/circleprogress" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/calculus1"
+                android:layout_width="0dp"
+                android:layout_row="9"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_topics"
+                android:elevation="3dp"
+                android:foreground="@drawable/ripple_keyboard"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="0dp"
+                android:shadowRadius="0">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical|center_horizontal|center|end"
+                    android:layout_weight="0.8" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="Calculus I"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/circleprogress" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/calculus2"
+                android:layout_width="0dp"
+                android:layout_row="10"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_topics"
+                android:elevation="3dp"
+                android:foreground="@drawable/ripple_keyboard"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="0dp"
+                android:shadowRadius="0">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical|center_horizontal|center|end"
+                    android:layout_weight="0.8" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="Calculus"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/circleprogress" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/MultiCalculus"
+                android:layout_width="0dp"
+                android:layout_row="11"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_topics"
+                android:elevation="3dp"
+                android:foreground="@drawable/ripple_keyboard"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="0dp"
+                android:shadowRadius="0">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical|center_horizontal|center|end"
+                    android:layout_weight="0.8" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="Multivariable Calculus"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/circleprogress" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/diffeqns"
+                android:layout_width="0dp"
+                android:layout_row="12"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_topics"
+                android:elevation="3dp"
+                android:foreground="@drawable/ripple_keyboard"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="0dp"
+                android:shadowRadius="0">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical|center_horizontal|center|end"
+                    android:layout_weight="0.8" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="Differential Equations"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/circleprogress" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linalgebra"
+                android:layout_width="0dp"
+                android:layout_row="13"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_topics"
+                android:elevation="3dp"
+                android:foreground="@drawable/ripple_keyboard"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="0dp"
+                android:shadowRadius="0">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical|center_horizontal|center|end"
+                    android:layout_weight="0.8" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="Linear Algebra"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/circleprogress" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/puzzles"
+                android:layout_width="0dp"
+                android:layout_row="14"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_topics"
+                android:elevation="3dp"
+                android:foreground="@drawable/ripple_keyboard"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="0dp"
+                android:shadowRadius="0">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical|center_horizontal|center|end"
+                    android:layout_weight="0.8" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="Puzzles"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/circleprogress" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/logic"
+                android:layout_width="0dp"
+                android:layout_row="15"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_topics"
+                android:elevation="3dp"
+                android:foreground="@drawable/ripple_keyboard"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="0dp"
+                android:shadowRadius="0">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical|center_horizontal|center|end"
+                    android:layout_weight="0.8" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="Logic"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/circleprogress" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/compmath"
+                android:layout_width="0dp"
+                android:layout_row="16"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_topics"
+                android:elevation="3dp"
+                android:foreground="@drawable/ripple_keyboard"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="0dp"
+                android:shadowRadius="0">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical|center_horizontal|center|end"
+                    android:layout_weight="0.8" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="Competitive Math"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/circleprogress" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/newtonian"
+                android:layout_width="0dp"
+                android:layout_row="17"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_topics"
+                android:elevation="3dp"
+                android:foreground="@drawable/ripple_keyboard"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="0dp"
+                android:shadowRadius="0">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical|center_horizontal|center|end"
+                    android:layout_weight="0.8" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="Newtonian Math"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/circleprogress" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/finmath"
+                android:layout_width="0dp"
+                android:layout_row="18"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_topics"
+                android:elevation="3dp"
+                android:foreground="@drawable/ripple_keyboard"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="0dp"
+                android:shadowRadius="0">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center_vertical|center_horizontal|center|end"
+                    android:layout_weight="0.8" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@null"
+                    android:clickable="false"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="Financial Math"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/circleprogress" />
+            </LinearLayout>
+        </GridLayout>
+    </ScrollView>
+</LinearLayout>

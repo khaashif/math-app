@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">app</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="k_1">1</string>
+
+    <string name="k_2">2</string>
+
+    <string name="k_3">3</string>
+
+    <string name="k_4">4</string>
+
+    <string name="k_5">5</string>
+
+    <string name="k_6">6</string>
+
+    <string name="k_7">7</string>
+
+    <string name="k_8">8</string>
+
+    <string name="k_9">9</string>
+
+    <string name="k_0">0</string>
+
+    <string name="k_openBracket">(</string>
+
+    <string name="k_closeBracket">)</string>
+
+    <string name="k_x">x</string>
+
+    <string name="k_y">y</string>
+
+    <string name="k_z">z</string>
+
+    <string name="k_sin">sin</string>
+
+    <string name="k_cos">cos</string>
+
+    <string name="k_tan">tan</string>
+
+    <string name="k_exp">e</string>
+
+    <string name="k_pi">π</string>
+
+    <string name="k_equal">=</string>
+
+    <string name="k_power">a^b</string>
+
+    <string name="k_sqrt">√</string>
+
+    <string name="k_plus">+</string>
+
+    <string name="k_minus">-</string>
+
+    <string name="k_delButton">DEL</string>
+
+    <string name="k_multiply">*</string>
+
+    <string name="k_divide">/</string>
+
+    <string name="k_ENT">ENTER</string>
+
+    <string name="ln_x">ln(x)</string>
+
+    <string name="x">x</string>
+
+    <string name="statistics_probability">Statistics &amp; Probability</string>
+
+</resources>

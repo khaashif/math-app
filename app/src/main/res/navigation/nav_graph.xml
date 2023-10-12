@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navgraph" app:startDestination="@+id/titleFragment">
+    <fragment android:label="fragment_title" android:name="ze.app.xyzmath.TitleFragment" android:id="@+id/titleFragment">
+        <action android:id="@+id/action_titleFragment_to_settingsFragment" app:destination="@+id/settingsFragment" app:enterAnim="@anim/nav_default_enter_anim" app:exitAnim="@anim/nav_default_exit_anim" app:popEnterAnim="@anim/nav_default_pop_enter_anim" app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <action android:id="@+id/action_titleFragment_to_webFragment" app:destination="@+id/webFragment"/>
+        <action android:id="@+id/action_titleFragment_to_topicsFragment" app:destination="@+id/topicsFragment" app:enterAnim="@anim/nav_default_enter_anim" app:exitAnim="@anim/nav_default_exit_anim" app:popEnterAnim="@anim/nav_default_pop_enter_anim" app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <action android:id="@+id/action_titleFragment_to_leaderboardFragment" app:destination="@+id/leaderboardFragment"/>
+        <action android:id="@+id/action_titleFragment_to_topicsFragment2" app:destination="@+id/topicsFragment"/>
+    </fragment>
+    <fragment android:label="fragment_play" android:name="ze.app.xyzmath.PlayFragment" android:id="@+id/playFragment">
+        <action android:id="@+id/action_playFragment_to_playCorrectFragment" app:destination="@+id/playCorrectFragment" app:enterAnim="@animator/scale_enter" app:popEnterAnim="@anim/nav_default_pop_enter_anim" app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <action android:id="@+id/action_playFragment_to_drawing_page" app:destination="@+id/drawing_page" app:enterAnim="@anim/nav_default_enter_anim" app:exitAnim="@anim/nav_default_exit_anim" app:popEnterAnim="@anim/nav_default_pop_enter_anim" app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <action android:id="@+id/action_playFragment_to_formulaPage" app:destination="@+id/formulaPage"/>
+        <action android:id="@+id/action_playFragment_to_topicCompleteFragment" app:destination="@+id/topicCompleteFragment"/>
+    </fragment>
+    <fragment android:label="fragment_levels" android:name="ze.app.xyzmath.LevelsFragment" android:id="@+id/levelsFragment">
+        <action android:id="@+id/action_levelsFragment_to_playFragment" app:destination="@+id/playFragment" app:enterAnim="@anim/nav_default_enter_anim" app:exitAnim="@anim/nav_default_exit_anim" app:popEnterAnim="@anim/nav_default_pop_enter_anim" app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+    <fragment android:label="fragment_settings" android:name="ze.app.xyzmath.SettingsFragment" android:id="@+id/settingsFragment">
+        <action android:id="@+id/action_settingsFragment_to_webFragment" app:destination="@+id/webFragment"/>
+    </fragment>
+    <fragment android:label="fragment_correct" android:name="ze.app.xyzmath.PlayCorrectFragment" android:id="@+id/playCorrectFragment"/>
+    <fragment android:label="webFragment" android:name="ze.app.xyzmath.webFragment" android:id="@+id/webFragment"/>
+    <fragment android:label="fragment_topics" android:name="ze.app.xyzmath.TopicsFragment" android:id="@+id/topicsFragment">
+        <action android:id="@+id/action_topicsFragment_to_levelsFragment" app:destination="@+id/levelsFragment"/>
+        <action android:id="@+id/action_topicsFragment_to_topicsLevels" app:destination="@+id/topicsLevels" app:enterAnim="@anim/nav_default_enter_anim" app:exitAnim="@anim/nav_default_exit_anim" app:popEnterAnim="@anim/nav_default_pop_enter_anim" app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+    <fragment android:label="fragment_topics_levels" android:name="ze.app.xyzmath.topicsLevels" android:id="@+id/topicsLevels">
+        <action android:id="@+id/action_topicsLevels_to_playFragment" app:destination="@+id/playFragment"/>
+    </fragment>
+    <fragment android:label="fragment_drawing_page" android:name="ze.app.xyzmath.DrawingPageFragment" android:id="@+id/drawing_page">
+        <action android:id="@+id/action_drawing_page_to_playFragment" app:destination="@+id/playFragment" app:enterAnim="@animator/slow_scale_exit" app:exitAnim="@animator/slow_scale_exit"/>
+    </fragment>
+    <fragment android:label="fragment_leaderboard" android:name="ze.app.xyzmath.LeaderboardFragment" android:id="@+id/leaderboardFragment"/>
+    <fragment android:label="FormulaPage" android:name="ze.app.xyzmath.FormulaPage" android:id="@+id/formulaPage"/>
+    <fragment android:label="fragment_topic_complete" android:name="ze.app.xyzmath.TopicCompleteFragment" android:id="@+id/topicCompleteFragment"/>
+</navigation>

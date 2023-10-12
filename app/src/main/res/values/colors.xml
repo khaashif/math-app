@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="testWhite">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="defaultGrey">#575757</color>
+
+    <color name="DGreen">#FF000000</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="bgGradient1">#008782</color>
+
+    <color name="bgGradient">#008742</color>
+
+    <color name="bgGradient3">#008742</color>
+
+    <color name="red">#770303</color>
+
+</resources>
